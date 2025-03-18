@@ -6,7 +6,7 @@ const Navbar = () => {
   const [visible, setVisible] = React.useState(false);
   const [active, setActive] = useState("Home");
   return (
-    <div className='relative w-full flex justify-between items-center px-4 mb-10'>
+    <div className='relative w-full flex justify-between items-center p-6'>
         {/* ----------logo section---------- */}
         <div className='flex items-center gap-2'>
             {/* <img src={assets.logo} alt='logo' className='text-grey-100' /> */}

@@ -4,9 +4,9 @@ import { Details, websiteInfo } from '../assets/assets'
 
 const Footer = () => {
   return (
-    <div className='prata-regular text-left mt-10'>
+    <div className='prata-regular text-left mt-5'>
         <hr className='w-full'/>
-        <div className='flex flex-col py-3  justify-between sm:flex-row'>
+        <div className='flex flex-col py-3  justify-between sm:flex-row  p-10'>
             <div className='text-xl font-bold'>{Details.whosePortfolio}</div>
             <div className='flex flex-col gap-10 text-sm text-gray-600 justify-between  sm:flex-row'>
                 <div>{Details.contact}<br/><Link to='/'>{websiteInfo.website}</Link><br/></div>
