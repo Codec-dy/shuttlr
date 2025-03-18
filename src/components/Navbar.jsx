@@ -20,7 +20,7 @@ const Navbar = () => {
                 <img className='h-4 rotate-180' src={assets.dropdown_icon} alt=''/>
                 <p>Back</p> 
             </div>
-            <Link onClick={()=>{setVisible(false);setActive("Home")}} to='' className={`${active==="Home"?"border-b":""}`}>Home</Link>
+            <Link onClick={()=>{setVisible(false);setActive("Home")}} to='/' className={`${active==="Home"?"border-b":""}`}>Home</Link>
             <Link onClick={()=>{setVisible(false);setActive("Service")}} to='/services' className={`${active==="Service"?"border-b":""}`}>Service</Link>
             <Link onClick={()=>{setVisible(false);setActive("About")}} to='/about' className={`${active==="About"?"border-b":""}`}>About Us</Link>
             <Link onClick={()=>{setVisible(false);setActive("Contact")}} to='/contact' className={`${active==="Contact"?"border-b":""}`}>Contact</Link>
